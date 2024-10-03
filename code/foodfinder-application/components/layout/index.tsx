@@ -10,6 +10,6 @@ const Layout = (props: PropsInterface): JSX.Element => {
             <Header />
             <main className="layout-grid">{props.children}</main>
         </>
-    );
-};
+    )
+}
 export default Layout;

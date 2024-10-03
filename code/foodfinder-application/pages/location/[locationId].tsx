@@ -35,8 +35,8 @@ const Location: NextPage = (
             <h1>{location?.name}</h1>
             <LocationDetail location={location} />
         </div>
-    );
-};
+    )
+}
 
 /**
  * getServerSideProps: (Server-side Rendering): Fetch data on each request.
